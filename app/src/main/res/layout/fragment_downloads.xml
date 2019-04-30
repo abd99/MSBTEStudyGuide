@@ -1,0 +1,78 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="8dp"
+    tools:context="com.abdsoft.msbtestudyguide.Downloads.DownloadsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="There are no downloaded files on this device."
+            android:gravity="center"
+            android:visibility="gone"
+            android:id="@+id/textView_empty_downloads"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:layout_above="@+id/ad_layout_downloads"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <!--<TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose Department"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="20sp"/>-->
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:id="@+id/recyclerview_downloads">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:id="@+id/ad_layout_downloads"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Note: Downloads can be accessed only when they are completed successfully."
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"/>
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView_downloads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/dload_ad">
+            </com.google.android.gms.ads.AdView>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/card_dept">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Department Name"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:id="@+id/textview_dept"/>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

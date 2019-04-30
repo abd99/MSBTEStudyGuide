@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">MSBTE Study Guide</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="title_activity_pdf">PDFActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+
+    <string name="feedback_ad">ca-app-pub-3940256099942544/6300978111</string>
+ 
+
+    <string name="about_ad">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <string name="cir_ad">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <string name="dept_ad">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <string name="sem_ad">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <string name="sub_ad">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <string name="year_ad">ca-app-pub-3940256099942544/6300978111</string>
+
+   
+
+    <string name="dload_ad">ca-app-pub-3940256099942544/6300978111</string>
+    
+    
+
+	<string name="inter_pdf">ca-app-pub-3940256099942544/1033173712</string>
+
+
+	<string name="inter_feedback">ca-app-pub-3940256099942544/1033173712</string>
+
+
+	<string name="inter_about">ca-app-pub-3940256099942544/1033173712</string>
+
+
+	<string name="admob_app_initialize_id">ca-app-pub-6178924596956580~3712305806</string>
+
+
+
+    <string name="about_app_text">Note: This is not the official MSBTE App. This application just provides resources for the ease of students. All resources are taken from www.msbte.org.in</string>
+
+
+
+    <string name="privacy_policy"><a href = "https://msbtestudyguide.firebaseapp.com">Privacy Policy</a></string>
+    
+
+</resources>

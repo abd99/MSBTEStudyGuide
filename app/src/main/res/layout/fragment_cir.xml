@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="8dp"
+    tools:context="com.abdsoft.msbtestudyguide.Cir.CirFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:layout_above="@+id/cir_ad_layout"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <!--<TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose Examination Year"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="20sp"/>-->
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:id="@+id/recyclerview_cir">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/cir_ad_layout"
+            android:layout_alignParentBottom="true">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView_cir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                android:layout_gravity="bottom"
+                ads:adUnitId="@string/cir_ad">
+            </com.google.android.gms.ads.AdView>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

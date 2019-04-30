@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">@color/blue</color>
+    <color name="recycler_background">#d6d7dc</color>
+    <!--<color name="colorPrimaryDark">#afafb3</color>-->
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="textColor">#000000</color>
+
+    <color name="black">#000000</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="pageno_background">#6e98ba</color>
+
+    <color name="blue">#18215e</color>
+
+
+    <color name="ic_launcher_background">#FFFFFF</color>
+
+    <color name="status_bar_color">@color/primary_material_light</color>
+
+    <color name="n">@color/md_light_statusbar</color>
+
+
+</resources>

@@ -3,16 +3,14 @@ package com.abdsoft.msbtestudyguide.SEMESTER;
 
 import android.os.Bundle;
 import android.app.Fragment;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.abdsoft.msbtestudyguide.HomeActivity;
 import com.abdsoft.msbtestudyguide.R;
-import com.abdsoft.msbtestudyguide.SEMESTER.SEMAdapter;
-import com.abdsoft.msbtestudyguide.SEMESTER.SEMItem;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 

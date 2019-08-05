@@ -69,7 +69,7 @@
                     android:layout_weight="1"
                     android:layout_marginBottom="10dp">
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:id="@+id/button_cir"
                         android:layout_weight="1"
                         android:layout_width="0dp"
@@ -112,9 +112,9 @@
 -->
 
                         </LinearLayout>
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:id="@+id/button_ques_paper"
                         android:layout_weight="1"
                         android:layout_width="0dp"
@@ -157,7 +157,7 @@
 
                         </LinearLayout>
 
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
 
 
@@ -172,7 +172,7 @@
                     android:layout_marginLeft="5dp"
                     android:orientation="horizontal">
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:id="@+id/button_ans_paper"
                         android:layout_weight="1"
                         android:layout_width="0dp"
@@ -216,10 +216,10 @@
 
                         </LinearLayout>
 
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:id="@+id/button_downloads"
                         android:layout_weight="1"
                         android:layout_width="0dp"
@@ -263,7 +263,7 @@
 
                         </LinearLayout>
 
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
 
 
@@ -280,7 +280,7 @@
 
 
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:id="@+id/button_about"
                         android:layout_weight="1"
                         android:layout_width="0dp"
@@ -324,9 +324,9 @@
 
                         </LinearLayout>
 
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:id="@+id/button_exit"
                         android:layout_weight="1"
                         android:layout_width="0dp"
@@ -370,7 +370,7 @@
 
                         </LinearLayout>
 
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
 
 

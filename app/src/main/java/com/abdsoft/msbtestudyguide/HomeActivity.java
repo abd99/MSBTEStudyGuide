@@ -6,10 +6,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.annotation.NonNull;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -109,19 +109,12 @@ public class HomeActivity extends AppCompatActivity
                 .withToolbar(toolbar)
                 .addDrawerItems(
                         item1,
-                        new DividerDrawerItem(),
                         item2,
-                        new DividerDrawerItem(),
                         item3,
-                        new DividerDrawerItem(),
                         item4,
-                        new DividerDrawerItem(),
                         item5,
-                        new DividerDrawerItem(),
                         item6,
-                        new DividerDrawerItem(),
                         item7,
-                        new DividerDrawerItem(),
                         item8
                 )
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {

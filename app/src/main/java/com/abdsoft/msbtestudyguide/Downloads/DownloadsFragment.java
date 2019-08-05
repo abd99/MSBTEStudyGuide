@@ -6,22 +6,19 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.app.Fragment;
-import android.support.annotation.Nullable;
-import android.support.design.widget.Snackbar;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.text.TextUtils;
+import androidx.annotation.Nullable;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.view.LayoutInflater;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.abdsoft.msbtestudyguide.Downloads.DownloadsAdapter;
-import com.abdsoft.msbtestudyguide.Downloads.DownloadsItem;
 import com.abdsoft.msbtestudyguide.HomeActivity;
 import com.abdsoft.msbtestudyguide.R;
 import com.google.android.gms.ads.AdRequest;

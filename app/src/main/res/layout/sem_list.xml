@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:padding="4dp">
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/card_sem"
         android:layout_width="match_parent"
         android:layout_height="70dp">
@@ -20,6 +20,6 @@
             android:textSize="20sp"
             android:textStyle="normal" />
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
 </LinearLayout>
